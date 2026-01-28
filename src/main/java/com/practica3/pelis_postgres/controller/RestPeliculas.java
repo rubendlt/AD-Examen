@@ -1,6 +1,6 @@
 package com.practica3.pelis_postgres.controller;
 
-import com.practica3.pelis_postgres.entities.Pelicula;
+import com.practica3.pelis_postgres.model.Pelicula;
 import com.practica3.pelis_postgres.repositories.PeliculaRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

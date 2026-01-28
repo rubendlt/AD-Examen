@@ -1,7 +1,6 @@
-package com.practica3.pelis_postgres.entities;
+package com.practica3.pelis_postgres.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 
 @Entity

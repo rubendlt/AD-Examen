@@ -1,8 +1,7 @@
 package com.practica3.pelis_postgres.repositories;
 
-import com.practica3.pelis_postgres.entities.Pelicula;
+import com.practica3.pelis_postgres.model.Pelicula;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
