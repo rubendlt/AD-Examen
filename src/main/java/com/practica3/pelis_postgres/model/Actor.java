@@ -9,7 +9,7 @@ public class Actor {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "idActor")
+    @Column(name = "idactor")
     private Long id;
     private String nome;
     private String apelidos;

@@ -12,7 +12,7 @@ public class OpenApiConfig {
     @Value("${app.version}")
     private String version;
 
-    @Value("${spring.application.name.pelis-postgres}")
+    @Value("${spring.application.name:nome}")
     private String appName;
 
     //http://localhost:8080/swagger-ui/index.html
